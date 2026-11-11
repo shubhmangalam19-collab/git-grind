@@ -1,0 +1,31 @@
+{
+  "name": "git-grind",
+  "version": "1.0.0",
+  "description": "⚡ The intelligent, interactive CLI for generating conventional git commits in seconds.",
+  "type": "module",
+  "bin": {
+    "git-grind": "./bin/git-grind.js",
+    "gg": "./bin/git-grind.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./bin/git-grind.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "conventional-commits",
+    "developer-tools",
+    "productivity",
+    "git-grind",
+    "commit-generator",
+    "git-assistant"
+  ],
+  "author": "Shubh Mangalam (@shubhmangalam19-collab)",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "picocolors": "^1.1.1"
+  }
+}
